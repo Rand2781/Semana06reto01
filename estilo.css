@@ -1,0 +1,53 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor1{
+    width: 100%;
+    padding: 0 5px;
+    position: relative;
+       
+}
+
+.contenedor2{
+    width: 100%;
+    position: relative;
+    left:35%;
+    top: 50%;
+    padding: 30px 0;
+    background-color:#F6F6F6;
+    border: 1px;
+    width: 460px;
+    height: 100px;
+    text-align: center ;
+
+}
+
+
+h1{
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.add-element{
+   margin: 12px, 0; 
+}
+input{
+    padding:10px 10px;
+    width: 70%;
+}
+button{
+    padding: 7px 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3CAC46;
+    color: white;
+  
+}
+
+button:hover{
+    background-color:#00AEEF ;
+    cursor: pointer;
+}
